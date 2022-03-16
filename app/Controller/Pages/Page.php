@@ -13,7 +13,7 @@ class Page {
      */
     private static function getHader(){
     
-    return View::render('pages/hader');
+    return View::render('pages/header');
 }
 /**Método responsavel por renderizar o rodapé da pagina
      * @return string
@@ -31,7 +31,7 @@ class Page {
         // View da home
    return View::render('pages/page', [
         'title' => $title,
-        'hader'=> self::getHader(),
+        'header'=> self::getHader(),
         'content'=>$content,
          'footer'=> self::getFooter()
         ]);
