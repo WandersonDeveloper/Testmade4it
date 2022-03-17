@@ -1,0 +1,20 @@
+{
+    "name": "WandersonFelipe/dot-env",
+    "description": "A simple library for managing environment variables in PHP.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "WandersonFelipede oliveira",
+            "email": "Wandersonunimed@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "WandersonFelipe\\DotEnv\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    }
+}

@@ -5,9 +5,14 @@ require __DIR__.'/vendor/autoload.php';
 
 use \App\Http\Router;
 use \App\Utils\View;
+use \WandersonFelipe\DotEnv\Environment;
 
 
-define('URL','http://127.0.0.1/Testmade4it');
+Environment::load(__DIR__);
+
+
+//Define a constante a URL do projeto
+define('URL',getenv('URL'));
 
 // define  ovalor padrão das variaveis 
 View::init([

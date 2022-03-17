@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'WandersonFelipe\\DotEnv\\' => array($vendorDir . '/WandersonFelipe/dot-env/src'),
     'App\\' => array($baseDir . '/app'),
 );

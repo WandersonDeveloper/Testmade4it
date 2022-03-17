@@ -3,7 +3,7 @@
 namespace App\Controller\Pages;
 
 use \App\Utils\View;
-
+use \App\Model\Entity\Organization;
 
 
 class Page {
@@ -12,8 +12,11 @@ class Page {
      * @return string
      */
     private static function getHader(){
-    
-    return View::render('pages/header');
+
+        $obOrganization = new Organization;
+    return View::render('pages/header',[
+        'nome' => $obOrganization->nome
+    ]);
 }
 /**Método responsavel por renderizar o rodapé da pagina
      * @return string
@@ -30,12 +33,12 @@ class Page {
     {
         // View da home
    return View::render('pages/page', [
+       
         'title' => $title,
         'header'=> self::getHader(),
         'content'=>$content,
          'footer'=> self::getFooter()
         ]);
-        //Retorna a view da pagina
-    //    return parent::getPage('Test-made4it',$content);
+    
     }
 }

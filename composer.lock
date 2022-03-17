@@ -4,8 +4,49 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b3df8118e7af6ab42e96277e1b37efd5",
-    "packages": [],
+    "content-hash": "c894f500105e62c5bc85cbfe334043cb",
+    "packages": [
+        {
+            "name": "WandersonFelipe/dot-env",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WandersonFelipe/dot-env.git",
+                "reference": "e5eb9b0384b57f2812215fab0e3853c16a4b368e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WandersonFelipe/dot-env/zipball/e5eb9b0384b57f2812215fab0e3853c16a4b368e",
+                "reference": "e5eb9b0384b57f2812215fab0e3853c16a4b368e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "WandersonFelipe\\DotEnv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "WandersonFelipe",
+                    "email": "Wandersonunimed@gmail.com"
+                }
+            ],
+            "description": "A simple library for managing environment variables in PHP.",
+            "support": {
+                "issues": "https://github.com/WandersonFelipea/dot-env/issues",
+                "source": "https://github.com/WandersonFelipe/dot-env/tree/v0.1.0"
+            },
+            "time": "2021-03-19T19:28:14+00:00"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",

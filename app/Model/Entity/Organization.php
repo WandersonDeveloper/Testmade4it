@@ -18,14 +18,15 @@ public $id =1;
 
  public $name = 'Made4it';
 
+ public $nome= 'Wanderson felipe';
+
 
  /**  site da organização 
   * @var String
 
  */
 
-public $description = 'Olá, meu nome é Bruno Cerqueira, sou analista de redes aqui na Made4it
-e hoje vou explicar  sobre Ataques DDoS e algumas maneiras de proteger sua empresa desses ataques.';
+public $description = 'Olá, meu nome é Wanderson Felipe De Oliveira, e sou desenvolvedor web e espero ser contratado para vaga de desenvolvedor Pleno na Made4It';
 
 
 
