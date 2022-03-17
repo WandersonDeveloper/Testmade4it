@@ -21,3 +21,12 @@ $obRouter->get('/sobre',[
     }
 ]);
 
+// Rota  dinamica
+$obRouter->get('/pagina/{idPagina}/{acao}',[
+    function($idPagina,$acao){
+
+ return new Response(200, 'Página '.$idPagina.' - '.$acao);
+    }
+ 
+]);
+
